@@ -2,3 +2,24 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+$material-light: (
+  'icons': (
+      'active': '#434553'
+  ),
+  'text': (
+      'primary': '',
+  ),
+);
+body {
+  color: #22232a;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.max-width_body {
+  max-width: 1000px;
+}
+$treeview-node-margin: 10px;
+$treeview-node-level-width: 10px;
+$treeview-node-padding: 20px;
+$treeview-label-font-size: 13px;
