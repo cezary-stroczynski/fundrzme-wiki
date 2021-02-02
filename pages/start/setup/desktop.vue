@@ -1,6 +1,12 @@
 <template lang="html">
   <div class="">
-    <v-breadcrumbs :items="location" class="text-h3 text-uppercase"></v-breadcrumbs>
+    <div>
+      normal text
+    </div>
+    <div class="text-caption">
+      caption
+    </div>
+    <v-breadcrumbs :items="location" class="text-uppercase"></v-breadcrumbs>
   </div>
 </template>
 

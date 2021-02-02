@@ -5,10 +5,13 @@
   fixed
   app
   class="secondary">
-  <div class="ma-1 text-right">
+  <div class="text-right">
     <v-btn icon @click="drawer = !drawer">
       <v-icon>mdi-chevron-left</v-icon>
     </v-btn>
+  </div>
+  <div class="text-caption grey--text text--darken-1 text-center">
+    Fundrz:<span class="mr-1">me</span> help center
   </div>
   <v-treeview
   class="mt-10"
@@ -158,5 +161,8 @@ export default {
 }
 a {
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>

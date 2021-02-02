@@ -11,6 +11,10 @@
       </v-icon>
       <span class="text-body-1">help center</span>
 
+
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-toolbar-title>
       <a href="https://fundrzme-beta.herokuapp.com/" target="_blank" class="ml-10">
         <span class="text-body-2">
           <b>FUNDRZ:</b><i class="success--text">me</i>

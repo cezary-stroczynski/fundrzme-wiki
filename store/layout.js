@@ -1,5 +1,6 @@
 export const state = () => ({
-  drawer: false
+  drawer: false,
+  keke: 'kaka'
 })
 
 
@@ -7,5 +8,8 @@ export const state = () => ({
 export const mutations = {
   drawer(state, value) {
     state.drawer = value
+  },
+  keke(state) {
+    state.keke = 'akuku'
   },
 }
