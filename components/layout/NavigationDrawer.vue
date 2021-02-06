@@ -6,16 +6,17 @@
   app
   class="secondary">
   <div class="text-right">
-    <v-btn icon @click="drawer = !drawer">
+    <v-btn
+    class="grey--text text--darken-1"
+    icon
+    @click="drawer = !drawer">
       <v-icon>mdi-chevron-left</v-icon>
     </v-btn>
   </div>
-  <div class="text-caption grey--text text--darken-1 text-center">
-    Fundrz:<span class="mr-1">me</span> help center
-  </div>
   <v-treeview
-  class="mt-10"
+  class="mt-5"
   dense
+  transition
   hoverable
   open-on-click
   :items="categories">

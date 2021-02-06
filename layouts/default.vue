@@ -7,7 +7,7 @@
         <nuxt />
       </div>
     </v-main>
-    <MainFooter />
+    <!-- <MainFooter /> -->
   </v-app>
 </template>
 

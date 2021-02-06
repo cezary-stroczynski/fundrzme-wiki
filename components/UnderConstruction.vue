@@ -1,7 +1,8 @@
 <template lang="html">
-  <div class="">
-    dddd
-  </div>
+  <v-alert type="warning">
+    under construction <br>
+    sorry :(
+  </v-alert>
 </template>
 
 <script>

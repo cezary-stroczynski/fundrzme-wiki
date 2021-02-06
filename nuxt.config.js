@@ -20,9 +20,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  router: {
-    middleware: 'createBreadcrumbs'
-  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -54,7 +51,7 @@ export default {
         light: {
           primary: '#434553',
           accent: '#2481a8',
-          secondary: '#e2e3e9',
+          secondary: '#f0f1f4',
           info: '#c0e3f2',
           warning:  '#e4d2b4',
           error: '#7e0801',
